@@ -21,6 +21,6 @@ export abstract class CommonEntity {
     @Column({ name: 'updated_at', type: 'timestamp', nullable: true })
     updatedAt: Date;
 
-    @DeleteDateColumn({ name: 'deleted_at' })
+    @DeleteDateColumn({ name: 'deleted_at', nullable: true })
     deletedAt: Date;
 }
