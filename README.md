@@ -169,40 +169,52 @@
   <summary> FE</summary>
   
 ```
-📦 fe_dreamtwist
- ┣ 📂 src
- ┃ ┣ 📂 app
- ┃ ┃ ┣ 📂 board
- ┃ ┃ ┃ ┣ 📂 [id]
- ┃ ┃ ┃ ┃ ┗ 📜 page.tsx
- ┃ ┃ ┣ 📂 pay
- ┃ ┃ ┃ ┗ 📜 page.tsx
- ┃ ┃ ┣ 📜 layout.tsx
- ┃ ┃ ┗ 📜 not-found.tsx
- ┃ ┣ 📂 api
- ┃ ┃ ┣ 📜 AuthApi.ts
- ┃ ┃ ┣ 📜 BookApi.ts
- ┃ ┃ ┣ 📂 components
- ┃ ┃ ┃ ┗ 📂 auth
- ┃ ┃ ┃ ┃ ┗ 📜 EditProfileList.tsx
- ┃ ┃ ┃ ┗ 📂 edit
- ┃ ┃ ┃ ┃ ┗ 📜 FairytailForm.tsx
- ┃ ┃ ┣ 📂 hooks
- ┃ ┃ ┃ ┗ 📜 useAiImage.ts
- ┃ ┃ ┣ 📂 styles
- ┃ ┃ ┃ ┗ 📜 globals.css
- ┃ ┃ ┣ 📂 utils
- ┃ ┃ ┃ ┗ 📜 localStorage.tsnot-found.tsx
- ┣ 📂 public
- ┃ ┃ ┃ ┣ 📂 fonts
- ┃ ┃ ┃ ┗ 📂 images
- ┣ 📜 next.config.mjs
- ┣ 📜 tailwind.config.ts
- ┣ 📜 tsconfig.json
- ┣ 📜 .eslintrc.json
- ┣ 📜 .prettierrc
- ┣ 📜 .gitignore
- ┗ 📜 README.md
+📦fe_dreamtwist
+ ┣ 📂public
+ ┃ ┣ 📂fonts
+ ┃ ┣ 📂images
+ ┃ ┗ 📜favicon.ico
+ ┣ 📂src
+ ┃ ┣ 📂api
+ ┃ ┣ 📂app
+ ┃ ┃ ┣ 📂(auth)
+ ┃ ┃ ┃ ┣ 📂edit-profile
+ ┃ ┃ ┃ ┗ 📂login
+ ┃ ┃ ┣ 📂(fairytale)
+ ┃ ┃ ┃ ┣ 📂create
+ ┃ ┃ ┃ ┣ 📂edit
+ ┃ ┃ ┃ ┗ 📂final-edit
+ ┃ ┃ ┣ 📂board
+ ┃ ┃ ┃ ┗ 📂[id]
+ ┃ ┃ ┣ 📂buildstory
+ ┃ ┃ ┣ 📂mypage
+ ┃ ┃ ┣ 📂pay
+ ┃ ┃ ┣ 📂payments
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📂auth
+ ┃ ┃ ┣ 📂board
+ ┃ ┃ ┣ 📂bulidstory
+ ┃ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📂edit
+ ┃ ┃ ┣ 📂final-edit
+ ┃ ┃ ┣ 📂icons
+ ┃ ┃ ┣ 📂layout
+ ┃ ┃ ┣ 📂main
+ ┃ ┃ ┗ 📂mypage
+ ┃ ┣ 📂hooks
+ ┃ ┣ 📂styles
+ ┃ ┣ 📂types
+ ┃ ┗ 📂utils
+ ┣ 📜.eslintrc.json
+ ┣ 📜.gitignore
+ ┣ 📜.prettierrc
+ ┣ 📜next.config.mjs
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┣ 📜postcss.config.mjs
+ ┣ 📜README.md
+ ┣ 📜tailwind.config.ts
+ ┗ 📜tsconfig.json
 ```
 </details>
 
